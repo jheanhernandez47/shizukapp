@@ -12,8 +12,8 @@ const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'], variable: '--font-di
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' })
 
 export const metadata: Metadata = {
-  title: 'Voz de Shizuka',
-  description: 'App de texto a voz inspirada en Shizuka — comunícate con frases predefinidas',
+  title: 'Prueba de app',
+  description: 'App de texto a voz inspirada en la aplicacion de Shizuka-chan',
   manifest: '/manifest.webmanifest',
   icons: {
     icon: '/favicon.svg',
@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     apple: '/icon-192.png',
   },
   openGraph: {
-    title: 'Voz de Shizuka',
-    description: 'App de texto a voz inspirada en Shizuka — comunícate con frases predefinidas',
+    title: 'Prueba de app',
+    description: 'App de texto a voz inspirada en la aplicacion de Shizuka-chan',
     images: ['/og-image.png'],
   },
   appleWebApp: {
     capable: true,
-    title: 'Voz de Shizuka',
+    title: 'Prueba de app',
   },
   metadataBase: new URL(process.env.NEXTAUTH_URL ?? 'http://localhost:3000'),
 }
